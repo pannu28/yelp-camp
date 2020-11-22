@@ -11,7 +11,7 @@ const express=require('express'),
       campground=require('./models/campground'),
       comment=require('./models/comment'),
       User=require('./models/user'),
-      seedDB=require("./seed");
+      //seedDB=require("./seed");
      
       const commentRoutes=require('./routes/comments'),
       campgroundRoutes=require('./routes/campgrounds'),
